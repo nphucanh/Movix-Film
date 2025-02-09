@@ -60,7 +60,7 @@ function App() {
           path="/profile"
           element={user ? <ProfilePage /> : <Navigate to="/login" />}
         />
-        <Route path='/notfound' element={<NotFoundPage />} />
+        <Route path="/notfound" element={<NotFoundPage />} />
       </Routes>
       <Footer />
       <Toaster />
